@@ -1,0 +1,15 @@
+# 依赖
+node_modules/
+
+# 环境变量与凭据(任何形态不入仓)
+.env
+.env.*
+*.pem
+*.key
+
+# 日志
+*.log
+logs/
+
+# 本地敏感词表(永不入库,见 scripts/banned-scan.mjs 头注)
+banned-words.local.json
