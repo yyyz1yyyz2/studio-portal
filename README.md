@@ -44,7 +44,7 @@
 ## 作品五|UE 5.8 + MCP 引擎自动化管线
 
 - **客户视角**:把虚幻引擎装进自动化流水线:从引擎安装、启动器全自动登录,到 MCP 协议直驱编辑器建场景、布灯、跑工具——游戏引擎也能像 Web 服务一样被脚本指挥。
-- **技术栈**:Unreal Engine 5.8.3 + 内置 ModelContextProtocol 插件;Node MCP(Streamable HTTP)客户端;浏览器自动化(启动器全链:邮箱→验证码→MFA)。
+- **技术栈**:Unreal Engine 5.8.3 + 内置 ModelContextProtocol 插件;Node MCP(Streamable HTTP)客户端;浏览器自动化(桌面应用端到端流程自动化)。
 - **可验证证据**:MCP 连通全链实测在档——initialize 握手 → tools/list(52 个工具集)→ call_tool 真实生效(编辑器内生成/查找/删除 Actor 零残留),127.0.0.1:8000 监听实锚(项目记忆 2026-10-10,L2 行为级)。
 
 ## 作品六|AI 内容生产线(多席评审 + 机数校验)
